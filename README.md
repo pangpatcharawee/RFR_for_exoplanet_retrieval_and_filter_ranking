@@ -19,7 +19,7 @@ This repository contains the Python code, Jupyter Notebooks, and synthetic trans
 * `Filter_ranking.ipynb`: Calculates feature importance to determine the optimal subset of photometric filters (Johnson-Cousins and SDSS) required for accurate atmospheric parameter estimation.
 
 ### Data
-* `Syn93_mrt_*.pickle` (and related data files): The synthetic transmission data generated using TauREx3, used for training and testing the Random Forest model. *(Note: Large datasets may be hosted via Zenodo; see the DOI link in the published paper for the full data archive).*
+* `Syn93_mrt_*.pickle` (and related data files): The synthetic transmission data generated using TauREx3, used for training, validating, and testing the Random Forest model. *(Note: Large datasets may be hosted via Zenodo; see the DOI link in the published paper for the full data archive).*
 
 ## System Requirements and Dependencies
 To run these notebooks, you will need Python 3.x and the following core libraries installed:
